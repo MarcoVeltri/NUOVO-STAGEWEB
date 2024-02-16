@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <link rel="Stylesheet" href="style.css">
+<head>
+
+    <meta charset="utf-8" />
+    <title>LIBRERIA SBRUGNA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<h1>LIBRERIA LA SBRUGNA</h1>
+<img id="logo" src="versace.png" height="86px">
+
+</h1>
+<ul>
+ <li><a class="active" href="index.html">Home</a></li>
+ <li><a href="News.html">News</a></li>
+ <li><a href="Contatti.html">Contatti</a></li>
+ <li><a href="About.html">Chi siamo</a></li>
+</ul>
+<b><p id="benvenuto">
+    BENVENUTO!
+  </p>
+  </b>
+
+    <div id="pulsante_cerca">
+        <button onclick="GetData()">Mostra tutti i libri</button>
+    </div>
+    <div id="tabella" hidden>
+        <table id="booksTable" class="booksTable">
+            <tr>
+                <th>Titolo</th>
+                <th>Genere</th>
+                <th>Libreria</th>
+            </tr>
+        </table>
+    </div>
+    <div id="pulsante_indietro">
+        <button onclick="GoBack()">Torna Indietro</button>
+    </div>
+    <div id="pulsante_cerca_nome">
+        <button onclick="GetDataByName()">Cerca con nome</button>
+        <form id="barra_ricerca_nome" hidden>
+            <input type="search" id="searchName" name="searchName" placeholder="Cerca per nome">
+        </form>
+    </div>
+    <div id="pulsante_aggiungi">
+        <button onclick="AddBook()">Aggiungi Libro</button>
+    </div>
+    <p id="desc">Biblioteca Sbrugna srl © <br>
+        All rights reserved 2024, the usage of the "Sbrugna" name and "Biblioteca Sbrugna" logo is strictly prohibited.</br></p>
+        <img src="italia.png" alt="repubblica italiana" href="https://www.governo.it/it" height="86px">
+        <img id="bolo" src="bologna.jpg" alt="comune di bologna" href="https://www.comune.bologna.it/home" height="86px">
+        
+         
+
+</body>
+</html>
